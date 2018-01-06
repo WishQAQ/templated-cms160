@@ -1,0 +1,1 @@
+<a href="[field:typelink /]"><img width="102" height="121" src="[field:global.cfg_templets_skin/]/images/pro_b.jpg"></a>

@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" title="全网营销"><img src=" [field:global.cfg_templets_skin/]/images/main_bd.png" alt="全网营销" ></a>

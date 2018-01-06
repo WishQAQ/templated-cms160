@@ -1,0 +1,1 @@
+<a class="coll_ctar" href="[field:typeurl/]">&gt; MORE</a>

@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" title="移动互联网定制"><img src=" [field:global.cfg_templets_skin/]/images/main_bc.png" alt="移动互联网定制" ></a>

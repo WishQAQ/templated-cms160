@@ -1,0 +1,422 @@
+﻿﻿<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/} by www.zhanoo.com</title>
+<meta name="Keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="xunmoban.com" />
+<meta name="Description" content="{dede:global.cfg_description/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/css.css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/jquery-min-1.7.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/DD_belatedPNG.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/style/jquery.kinMaxShow-1.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/js.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/jquery.form.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/utils.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/validator.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/style/jquery.cookies.js" type="text/javascript"></script>
+<script>
+    $(function () {
+        if (jQuery.cookie("the_cookie") != "the_value") {
+            $(".mengban").show();
+            $(".mengban").click(function () {
+                $(".mengban").hide();
+                jQuery.cookie('the_cookie', 'the_value', { expires: 1, path: '/' });
+            })
+        }
+    })
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 0) {
+            $(".mengban").hide();
+        }
+    });
+			
+</script>
+<style>
+.mengban{ background:#000; width:100%; height:100%; position:fixed; z-index:99999999;filter:alpha(opacity=90);opacity:0.9}
+.mengban .mengban1{ position:absolute; top:20px; left:5%}
+.mengban .mengban2{ position:absolute; top:0px; right:5%}
+.mengban .mengban3{ position:absolute; top:92px; left:5%}
+.mengban .mengban4{ position:absolute; top:92px; right:5%}
+</style>
+</head>
+<body>
+<div class="mengban" style="display:none">
+	<div class="mengban1"><img src="{dede:global.cfg_templets_skin/}/images/meng3.png" width="148" height="21"></div>
+    <div class="mengban2"><img src="{dede:global.cfg_templets_skin/}/images/meng4.png" width="154" height="56"></div>
+	<div class="mengban3"><img src="{dede:global.cfg_templets_skin/}/images/meng1.png" width="290" height="270"></div>
+    <div class="mengban4"><img src="{dede:global.cfg_templets_skin/}/images/meng2.png" width="301" height="282"></div>
+</div>
+{dede:include filename="head2.htm"/}   
+<div class="banner">
+        <div class="intro" id="mangoShow">
+        <div class="wrap clearFix">
+            <div class="cz_bannn" style="background:url({dede:global.cfg_templets_skin/}/images/banner_aa.jpg) no-repeat center top #ffa800">
+            </div>    
+            <div>
+             <img src="{dede:global.cfg_templets_skin/}/images/cz_ban_a.png" class="sub_1_1" >
+             <img src="{dede:global.cfg_templets_skin/}/images/cz_ban_b.png" class="sub_1_2">
+             <img src="{dede:global.cfg_templets_skin/}/images/cz_ban_c.png" class="sub_1_3" >
+             <img src="{dede:global.cfg_templets_skin/}/images/cz_ban_d.png" class="sub_1_4">
+             {dede:type typeid='1'}
+<a href="[field:typelink /]"><img src="[field:global.cfg_templets_skin/]/images/czx1.png" class="sub_1_5"></a>
+{/dede:type}
+
+              </div>
+          </div>
+            
+        <div class="wrap clearFix">
+             <div class="cz_bannn" style="background:url({dede:global.cfg_templets_skin/}/images/banner_bbb.png) no-repeat center top ">
+          </div>
+             <div>
+             <img src="{dede:global.cfg_templets_skin/}/images/czym_ccc.png" class="sub_2_1">
+             <img src="{dede:global.cfg_templets_skin/}/images/czym_bbb.png" class="sub_2_2"> 
+              {dede:type typeid='3'}
+<a href="[field:typelink /]"><img src="[field:global.cfg_templets_skin/]/images/czym_aaa.png" class="sub_2_3"></a>
+{/dede:type}
+          </div>   
+          </div>
+            
+        <div class="wrap clearFix">
+            <div class="cz_bannn" style="background:url({dede:global.cfg_templets_skin/}/images/czym_ddd.png) no-repeat center top ">
+          </div>
+            <div>
+             <img src="{dede:global.cfg_templets_skin/}/images/czym_eee.png" class="sub_3_1" >
+             <img src="{dede:global.cfg_templets_skin/}/images/czyu_ccc.png" class="sub_3_2">
+             {dede:type typeid='5'}
+<a href="[field:typelink /]"><img src="[field:global.cfg_templets_skin/]/images/czym_aaa.png" class="sub_3_3"></a>
+{/dede:type}
+          </div>   
+          </div>
+            
+  </div> 
+         
+        
+	</div>
+    <div class="main_a">
+        <div class="main">
+            <div class="main_aa">
+                <div class="img"><img src="{dede:global.cfg_templets_skin/}/images/main_a.jpg" alt=""></div>
+                <div class="text a">
+                    <p>关于站窝窝</p>
+                    建站资源共享学习平台</br>
+专业提供网站模板，网页模板，网站源码，网站素材，网页特效等素材免费下载。我们致力于打造一个优秀的建站资源共享学习平台。
+                </div>
+            </div>
+            <div class="main_ab">
+                <div class="main_ab_ul">
+                    <div class="main_ab_li a">
+                        {dede:type typeid='20'} <a href="[field:typeurl/]" title="网络营销外包"><img src=" [field:global.cfg_templets_skin/]/images/main_ba.png" alt="网络营销外包" ></a>{/dede:type}
+                    </div>
+                    <div class="text">
+                        <p>网络营销外包</p>
+                        Network Marketing Service
+                    </div>
+                </div>
+                <div class="main_ab_ul">
+                    <div class="main_ab_li a">
+                         {dede:type typeid='18'}<a href="[field:typeurl/]" title="企业商城"><img src=" [field:global.cfg_templets_skin/]/images/main_bb.png" alt="企业商城" ></a>{/dede:type}
+                    </div>
+                    <div class="text">
+                        <p>企业商城</p>
+                        Enterprise mall
+                    </div>
+                </div>
+                <div class="main_ab_ul">
+                     <div class="main_ab_li b">
+                        {dede:type typeid='17'} <a href="[field:typeurl/]" title="移动互联网定制"><img src=" [field:global.cfg_templets_skin/]/images/main_bc.png" alt="移动互联网定制" ></a>{/dede:type}
+                    </div>
+                    <div class="text">
+                        <p>移动互联网定制</p>
+                        Mobile Internet
+                    </div>
+                </div>
+                <div class="main_ab_ul">
+                    <div class="main_ab_li a">
+                        {dede:type typeid='16'} <a href="[field:typeurl/]" title="全网营销"><img src=" [field:global.cfg_templets_skin/]/images/main_bd.png" alt="全网营销" ></a>{/dede:type}
+                    </div>
+                    <div class="text">
+                        <p>全网营销</p>
+                        Internet Marketing
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_b">
+        <div class="main">
+            <div class="main_aa">
+                <div class="img"><img src="{dede:global.cfg_templets_skin/}/images/main_c.jpg" alt=""></div>
+                <div class="text b">
+                    <p>案例展示</p>
+                    网络营销领域从业超过10年！</br>
+我们了解大中小型企业的生意模式，需求，我们倡导让客户感知产品的应用体验价值，而不仅是产品的功能。
+                </div>
+            </div>
+            <div class="main_b_c">
+                           
+        	<div class="case_a_cont">
+             {dede:arclist    typeid ='4'    row='8' }
+                        	<a href="[field:arcurl/]" target="_blank">
+                	<img src='[field:picname/]' width="238" height="166">
+                	<p>
+                        <span>[field:title/]</span>
+                       <font>[field:infos function="cn_substr(Html2text(@me),30)"/]...</font>
+                    </p> 
+                    <b></b>   
+                </a>
+               [field:global name=autoindex runphp="yes"](@me ==4)? @me="</div><div class='case_a_cont'>":@me="";[/field:global]
+                
+                {/dede:arclist}
+              
+  </div>
+                
+                <div class="case_a_cont">
+                                            </div>
+                <div class="more main_d_c cz">
+                   {dede:type typeid='4'}  <a href="[field:typeurl/]" class="png">MORE</a>{/dede:type}
+                </div>
+            </div>
+
+        
+        </div>
+    </div>
+    <div class="main_c">
+        <div class="main">
+            <div class="main_aa">
+                <div class="img"><img src="{dede:global.cfg_templets_skin/}/images/main_a.jpg" alt=""></div>
+                <div class="text a">
+                    <p>资讯中心</p>
+                     技艺是无价之宝，知识是智慧的明灯，没有比知识更好的朋友。
+                </div>
+            </div>
+            <div class="main_c_c">
+                <ul>
+                    <li>
+                        <div class="main_c_ct">营销型网站建设</div>
+                        <div class="main_c_cc">
+                         {dede:arclist    typeid ='6'    row='5'    }
+<a href="[field:arcurl/]" title="[field:title/]"><b>+</b>[field:title/]</a>{/dede:arclist}
+                                                       
+{dede:type typeid='6'}<a href="[field:typeurl/]" class="more">MORE</a>{/dede:type}
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main_c_ct">网络营销知识</div>
+                        <div class="main_c_cc">
+                         {dede:arclist    typeid ='7'    row='5'    }                   
+<a href="[field:arcurl/]" title="[field:title/]"><b>+</b>[field:title/]</a>{/dede:arclist}
+                                                
+{dede:type typeid='7'}<a href="[field:typeurl/]" class="more">MORE</a>{/dede:type}
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main_c_ct">公司公告</div>
+                        <div class="main_c_cc">
+                         {dede:arclist    typeid ='9'    row='5'    }
+<a href="[field:arcurl/]" title="[field:title/]"><b>+</b>[field:title/]</a>{/dede:arclist}
+                                                     
+{dede:type typeid='9'}<a href="[field:typeurl/]" class="more">MORE</a>{/dede:type}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main_d">
+   <form action="/plus/diy.php" id="reviewForm" onSubmit="return Insertfeedbook(this,'reviewForm')" enctype="multipart/form-data" method="post" name="reviewForm">
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="1" />
+<input type="hidden" name="do" value="2" />
+        <div class="main_d_a"></div>
+        <div class="main_d_b">
+            <ul>
+                <li>
+                    <div class="main_d_b_l a"></div>
+                    <div class="main_d_b_r a">
+                   <input type='text' name='name' id='name'   class="txt" value='尊称' />
+                    </div>
+                </li>
+                <li>
+                    <div class="main_d_b_l a"></div>
+                    <div class="main_d_b_r a">
+                   <input type='text' name='tel' id='tel'   class="text" value='电话' />
+                    </div>
+                </li>
+                <li>
+                    <div class="main_d_b_l a"></div>
+                    <div class="main_d_b_r a">
+                    <input type='text' name='email' id='email' class="txt" value='邮箱' />
+                    </div>
+                </li>
+                <li>
+                    <div class="main_d_b_l b"></div>
+                    <div class="main_d_b_r b">
+                   <textarea name='content' id='content'>您的要求</textarea>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="main_d_c"><input type="hidden" name="dede_fields" value="name,text;tel,text;email,text;content,multitext" />
+<input type="hidden" name="dede_fieldshash" value="6ab3473b54d46e14f8bf2aa4f4cef3fa" />
+<input type="submit" name="submit" value="提 交" class='png' /></div>
+        </form>
+    </div>
+	<div class="main_e">
+    	<div class="main_aa">
+                <div class="img"><img src="{dede:global.cfg_templets_skin/}/images/link_d.jpg" width="140" height="128"></div>
+                <div class="text c">
+                     地址/Add：{dede:global.cfg_add/}  </br>
+                     电话/Tel： {dede:global.cfg_tel/}</br>
+                     邮箱/Mail： <a href=" {dede:global.cfg_mail/}">{dede:global.cfg_mail/}</a></br>
+                </div>
+                <div class="img_a"><img src="{dede:global.cfg_templets_skin/}/images/link_e.jpg" width="227" height="20"></div>
+      </div>
+    </div>   
+    <div class="link">
+    <div class="main">
+        
+        	<ul>
+            	<li>
+                	<p>解决方案</p>
+                    {dede:type typeid='1'}<a href="[field:typelink /]">网络营销外包</a>{/dede:type}
+                    {dede:type typeid='1'}<a href="[field:typelink /]">高端品牌网站建设</a>{/dede:type}
+                    {dede:type typeid='1'}<a href="[field:typelink /]">移动互联网定制</a>{/dede:type}
+                    {dede:type typeid='1'}<a href="[field:typelink /]">全网营销</a>{/dede:type}
+                    {dede:type typeid='1'}<a href="[field:typelink /]">企业视觉设计</a>{/dede:type}
+                </li>
+                <li>
+                	<p>服务专区</p>
+                     {dede:channel typeid='2' row='8'}
+						<a href='[field:typelink/]'>[field:typename/]</a>
+					{/dede:channel}
+                                        </li>
+                <li>
+                	<p>知识学院</p>
+                           {dede:channel typeid='3' row='8'}
+						<a href='[field:typelink/]'>[field:typename/]</a>
+					{/dede:channel}
+                                        </li>
+                
+
+
+                <li>
+                	<p>案例展示</p>
+                           {dede:channel typeid='4' row='8'}
+						<a href='[field:typelink/]'>[field:typename/]</a>
+					{/dede:channel}
+                                        </li>
+                <li>
+                	<p>产品中心</p>
+                           {dede:channel typeid='5' row='8'}
+						<a href='[field:typelink/]'>[field:typename/]</a>
+					{/dede:channel}
+                </li>
+                <li>
+                	<p>某某</p>
+                       {dede:channel typeid='22' row='8'}
+						<a href='[field:typelink/]'>[field:typename/]</a>
+					{/dede:channel}
+                </li>
+                <li>
+                	<p>联系我们</p>
+                    {dede:type typeid='21'}<a href="[field:typelink /]">地图上找到我们</a>{/dede:type}                
+            </ul>
+			
+        </div>
+ 
+<div class="flink">
+        友情链接：
+        {dede:flink row='24'/}
+        <a href="http://www.xunmoban.com/" target="_blank">站窝窝</a>
+</div>
+    </div>
+
+    
+{dede:include filename="kefu.htm"/}
+   
+  <script type="text/javascript">
+      $(function () {
+          $("#mangoShow").kinMaxShow({
+              height: 700,
+              button: {
+                  showIndex: false,
+                  normal: { background: 'url({dede:global.cfg_templets_skin/}/images/fsl_a.png) no-repeat', marginRight: '8px', border: '0', left: '50%', bottom: '0', height: '36px', width: '38px' },
+                  focus: { background: 'url({dede:global.cfg_templets_skin/}/images/fsl_a.jpg) no-repeat', border: '0' }
+              },
+              callback: function (index, action) {
+                  switch (index) {
+                      case 0:
+                          if (action == 'fadeIn') {
+                              $(this).find('.sub_1_1').animate({ top: '134px' }, 600)
+                              $(this).find('.sub_1_2').animate({ bottom: '0' }, 600)
+                              $(this).find('.sub_1_3').animate({ top: '357px' }, 900)
+                              $(this).find('.sub_1_4').animate({ top: '260px' }, 900)
+                              $(this).find('.sub_1_5').animate({ top: '358px' }, 600)
+
+                          } else {
+                              $(this).find('.sub_1_1').animate({ top: '-163px' }, 600)
+                              $(this).find('.sub_1_2').animate({ bottom: '-286px' }, 600)
+                              $(this).find('.sub_1_3').animate({ bottom: '-336px' }, 600)
+                              $(this).find('.sub_1_4').animate({ top: '-236px' }, 600)
+                              $(this).find('.sub_1_5').animate({ top: '-358px' }, 600)
+                          };
+                          break;
+
+                      case 1:
+                          if (action == 'fadeIn') {
+                              $(this).find('.sub_2_1').animate({ left: '50%' }, 600)
+                              $(this).find('.sub_2_2').animate({ left: '50%' }, 900)
+                              $(this).find('.sub_2_3').animate({ top: '550px' }, 600)
+                          } else {
+                              $(this).find('.sub_2_1').animate({ left: '100%' }, 600)
+                              $(this).find('.sub_2_2').animate({ left: '0' }, 600)
+                              $(this).find('.sub_2_3').animate({ top: '550px' }, 600)
+                          };
+                          break;
+
+                      case 2:
+                          if (action == 'fadeIn') {
+                              $(this).find('.sub_3_1').animate({ top: '115px' }, 400)
+                              $(this).find('.sub_3_2').animate({ top: '400px' }, 800)
+                              $(this).find('.sub_1_3').animate({ top: '306px' }, 600)
+                          } else {
+                              $(this).find('.sub_3_1').animate({ top: '-162px' }, 400)
+                              $(this).find('.sub_3_2').animate({ bottom: '-297px' }, 800)
+                              $(this).find('.sub_3_3').animate({ top: '306px' }, 600)
+                          };
+                          break;
+
+                  }
+              }
+
+          });
+
+
+      });
+
+
+</script>
+<script type="text/javascript">
+    function Insertfeedbook(form, formnae) {
+        $(form).ajaxSubmit({
+            beforeSubmit: function () {
+                var validator = new Validator(formnae);
+                validator.required("name", "请输入用户名!");
+                validator.isEmail("email", "邮件格式错误", true);
+                validator.required("content", "请输入留言内容！");
+                return validator.passed();
+            },
+           // dataType: 'script',
+            resetForm: true,
+            success: function (data) {
+                alert("添加成功！");
+            }
+        });
+        return false;
+    }
+</script>
+</body>
+</html>

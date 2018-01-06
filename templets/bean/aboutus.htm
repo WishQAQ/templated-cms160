@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="Keywords" content="{dede:field name='keywords'/}" />
+<meta name="Description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/style/css.css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/jquery-min-1.7.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/DD_belatedPNG.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/style/jquery.kinMaxShow-1.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/js.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/utils.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/validator.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/style/jquery.cookies.js" type="text/javascript"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="about_cont_a">
+    	<div class="about_cont_aa"></div>
+        <div class="about_cont_vc"></div>
+        <div class="main">
+        <div class="about_conta_top">
+            	<div class="about_conta_topl"><img width="413" height="59" src="{dede:global.cfg_templets_skin/}/images/about_j.jpg" alt="了解创同盟"></div>
+                <div class="about_conta_topr">
+                	<div class="about_conta_toprt"><span>当前位置：</span>{dede:field name='position'/}</div>
+                   <div class="about_conta_toprb a">
+                    {dede:channel  typeid ='22'  row='5' currentstyle="<a href='~typelink~' class='selected'>~typename~</a> "}
+<a href='[field:typelink/]'>[field:typename/]</a> 	     
+                                             {/dede:channel}
+                   </div>
+                </div>
+            </div>
+<div class="coll">
+{dede:field.content/}
+</div>
+       </div>
+    </div>
+  
+    
+   {dede:include filename="kefu.htm"/}
+   
+   <div class="link about_link_cont">
+    	{dede:include filename="footer2.htm"/}    
+    </div>
+</body>
+</html>

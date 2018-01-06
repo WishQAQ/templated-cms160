@@ -1,0 +1,1 @@
+<a href="[field:typelink /]">地图上找到我们</a>

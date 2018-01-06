@@ -1,0 +1,7 @@
+INSERT INTO `dede_uploads` VALUES('1','0','1-140Q91034020-L.jpg','/uploads/allimg/140819/1-140Q91034020-L.jpg','1','0','0','0','26097','1408415642','1');
+INSERT INTO `dede_uploads` VALUES('2','0','1-140Q91034500-L.jpg','/uploads/allimg/140819/1-140Q91034500-L.jpg','1','0','0','0','26097','1408415690','1');
+INSERT INTO `dede_uploads` VALUES('3','0','140819/1-140Q91035192L.jpg','/uploads/allimg/140819/1-140Q91035192L.jpg','1','740','3340','0','622647','1408415719','1');
+INSERT INTO `dede_uploads` VALUES('4','6','文具','/uploads/allimg/140819/1-140Q912201Q28.jpg','1','740','1726','0','733506','1408422018','1');
+INSERT INTO `dede_uploads` VALUES('5','6','文具','/uploads/140819/1-140Q9122112495.jpg','1','238','166','0','42151','1408422072','1');
+INSERT INTO `dede_uploads` VALUES('6','7','科技有限公司','/uploads/allimg/140819/1-140Q91223210-L.jpg','1','0','0','0','166959','1408422201','1');
+INSERT INTO `dede_uploads` VALUES('7','7','科技有限公司','/uploads/allimg/140819/1-140Q912233J13.jpg','1','740','814','0','349807','1408422217','1');

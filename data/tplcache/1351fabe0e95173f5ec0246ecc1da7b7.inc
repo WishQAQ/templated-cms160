@@ -1,0 +1,1 @@
+<a  class="a" href="[field:typelink /]">我要留言</a>

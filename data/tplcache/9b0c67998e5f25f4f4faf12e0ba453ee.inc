@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" title="网络营销外包"><img src=" [field:global.cfg_templets_skin/]/images/main_ba.png" alt="网络营销外包" ></a>

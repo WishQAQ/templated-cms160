@@ -1,0 +1,30 @@
+    <div class="qqkefu">
+    	<ul>
+            <li class="top">TOP<span></span></li>
+                        <li class="qq_cza"><a href="tencent://message/?uin={dede:global.cfg_qq/}&Site={dede:global.cfg_basehost/}&Menu=yes"><b class="a"></b>咨询</a></li>
+                        
+            <li class="qq_cza" id="zx"><a href="javascript:;"><b class="b"></b>在线咨询</a></li>
+            <li class="qq_czb">
+                <b class="c"></b>
+                <div class="erweima">
+                        
+                    <p><img src="{dede:global.cfg_templets_skin/}/images/20140417172111_3368.jpg"> 手机网站！</p>
+                       
+                    <p><img src="{dede:global.cfg_templets_skin/}/images/20140417172211_5092.jpg"> 关注企业微信</p>
+                                        <i class="arrow3"></i>
+               </div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        $(function () {
+            $("#zx").click(function () {
+				{dede:type typeid='21'}window.location.href = "[field:typelink /]";{/dede:type}
+            })
+            $(".qq_czlxb").hover(function () {
+                $(".phone_whole").show(50);
+            }, function () {
+                $(".phone_whole").hide(50);
+            });
+        })
+    </script>

@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]" title="企业商城"><img src=" [field:global.cfg_templets_skin/]/images/main_bb.png" alt="企业商城" ></a>
